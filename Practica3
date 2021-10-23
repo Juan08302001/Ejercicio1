@@ -1,0 +1,27 @@
+
+for i in range(0,3):
+    for j in range(0,2):
+        print(i, j)
+        
+
+frutas = ["manzana", "mango", "melón"]
+for x in frutas:
+    print(x)
+    
+estudiantes = ["Fátima", "David", "Pablo", "Yennifer", "Juan", "José", "Carlos", "Ulises", "Alma"]
+estudiantes
+
+for e in estudiantes:
+    print("Buenas tardes ", e)
+    
+#ciclo while
+x = 5
+while x > 0:
+    x -= 1
+    print(x)
+    
+ x = 10
+while x > 0:
+    x -= 1
+    print(x)
+    print("Hola Mundo!!! ")
