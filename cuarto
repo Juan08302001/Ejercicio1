@@ -1,0 +1,14 @@
+respuesta = "s"
+while respuesta =="s":
+    print("Menu del programa")
+    print("1.- Opcion 1")
+    print("5.- Salir")
+    print("-----------")
+    opcion = int(input("Dame tu opcion"))
+    if opcion == 1:
+        print("Esta es la opcion 1")
+    if opcion == 5:
+        print("Gracias!!")
+        respuesta = "n"
+        
+    print("Ya salio del while")
